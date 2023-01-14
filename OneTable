@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+      
+      td,th{
+        border: 1px solid black;
+        padding: 5px 7px;
+
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+</head>
+<body>
+    <h1>Tablas </h1>
+    <caption>1</caption>
+    <table>
+
+        <thead>
+            
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Ciudad</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Gilbert</td>
+                <td>Rodriguez</td>
+                <td>Cali</td>
+             </tr>
+             <tr>
+                <td>2</td>
+                <td>Daniel</td>
+                <td>Motoa</td>
+                <td>Sevilla</td>
+             </tr>
+             <tr>
+                <td>3</td>
+                <td>Daniela</td>
+                <td>Perez</td>
+                <td>Cauca</td>
+             </tr>
+             <tr>
+                <td>4</td>
+                <td>Alejo</td>
+                <td>Vallejo</td>
+                <td>Medellin</td>
+             </tr>
+             <tr>
+                <td>5</td>
+                <td>Maria</td>
+                <td>Cruz</td>
+                <td>Popayan</td>
+             </tr>
+             <tr>
+                <td>6</td>
+                <td>Merdeces</td>
+                <td>Ortega</td>
+                <td>Yumbo</td>
+             </tr>
+             <tr>
+                <td>7</td>
+                <td>William</td>
+                <td>Ferrero</td>
+                <td>Bogota</td>
+             </tr>
+
+        </tbody>
+        <colgroup style="background-color: aquamarine;"></colgroup>
+       
+    </table>
+</body>
+</html>
