@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+      
+      td,th{
+        border: 1px solid black;
+        padding: 5px 7px;
+
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+</head>
+<body>
+    <h1>Tablas </h1>
+    <caption>3</caption>
+    <table>
+
+
+        <tbody>
+            <tr>
+                <td>item 1 </td>
+                <td rowspan="2">item 2</td>
+                <td>item 3</td>
+                
+            </tr>
+          <tr>
+            <td>item 4</td>
+            <td>item 5</td>
+                        
+          </tr>
+          
+    
+        </tbody>
+        <colgroup style="background-color: aquamarine;"></colgroup>
+       
+    </table>
+</body>
+</html>
