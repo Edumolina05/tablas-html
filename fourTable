@@ -29,21 +29,26 @@
 
         <tr>
             <td rowspan="3">Celda</td>
-            
-        </tr>
-        <tr>
             <td>Celda</td>
             <td>Celda</td>
             <td>Celda</td>
             <td>Celda</td>
             <td rowspan="3">Celda</td>
             
+            
         </tr>
-       <tr>
-        <td>Celda</td>
-        <td style="text-align: center;" colspan="2">Celda</td>
-        <td>Celda</td>
+        
+            <td>Celda</td>
+            <td style="text-align: center;" colspan="2">Celda</td>
+            <td>Celda</td>
        </tr>
+
+        </tr>
+            <td>Celda</td>
+            <td >Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
 
     
 
