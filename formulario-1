@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Parte 1 </title>
+</head>
+<body>
+    <form action="" method="get">
+        <input name="frutas" id="manzana"  value="manzana"type="checkbox"><label for="manzana">Manzana</label><br>
+        <input name="frutas" id="pera" value="pera" type="checkbox"><label for="pera">Pera</label><br>
+        <input name="frutas" id="durazno" value="durazno" type="checkbox"><label for="durazno">Durazno</label><br>
+        <input name="terminos" id="terminos" value="terminos" type="checkbox">Aceptar<br>
+        <button type="submit">Enviar</button>
+        
+
+        <h3>Genero</h3>
+
+        <label for="mujer">
+            <input name="genero" type="radio" id="mujer" value="mujer">Mujer
+        </label><br>
+
+        <label for="hombre">
+            <input name="genero" type="radio" id="hombre" value="mujer">Hombre
+        </label><br>
+
+        <label for="otro">
+            <input name="genero" type="radio" id="otro" value="mujer">Otro
+        </label><br>
+
+        <button type="submit">Enviar</button><br>
+
+        <input name="color" type="color">
+        <br>
+        <input name="color" type="file">
+
+
+    </form>
+    <a href="#" target="">Enlace</a>
+</body>
+</html> 
