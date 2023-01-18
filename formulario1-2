@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Parte 1 </title>
+</head>
+<body>
+    <form action="" method="GET">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre</label> <input type="text" id="nombre"> <br>
+        <label for="apellido">Apellido</label> <input type="text" id="apellido"> <br>
+    </fieldset>
+
+     
+    <fieldset>  
+        <legend>Experiencia</legend>  
+
+        <label for="lenguaje">Selecione un lenguaje</label><br>
+        <select name="lenguaje" id="lenguaje">
+            <option value="lenguaje">---selecionar---</option>
+
+            <optgroup label="Fron-end">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JAVASCRIPT</option>
+            </optgroup>
+            <optgroup label="Back-end">
+            <option value="php">PHP</option>
+            <option value="mysql">MYSQL</option>
+            <option value="nodejs">NODEJS</option>
+            </optgroup>     
+        </select>
+    </fieldset>
+        <br>
+
+
+
+       <input name="rango" type="range" min="0" max="250" value="0" style="width: 250px;">
+       <br>
+       <input name="volumen" type="range" list="listaVolumen">
+
+        <datalist id="listaVolumen">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+        </datalist>
+        <br>
+
+        <input name="navegador" type="text" list="navegadores">
+
+        <datalist id="navegadores">
+
+            <option value="Opera">
+            <option value="Chrome">
+            <option value="Safari">
+
+
+        </datalist>
+
+
+
+       <br>
+       <button type="submit">Enviar</button>
+
+
+    </form>
+    <a href="#" target="">Enlace</a>
+</body>
+</html> 
