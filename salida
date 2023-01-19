@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Parte 1 </title>
+</head>
+<body>
+    <form oninput="salida.value = parseInt(numero.value) + parseInt(rango.value)"  method="GET">
+
+        <input id="numero"  type="number" value="0"> +
+        <input id="rango"   type="range" min="0" max="250" value="0"> =
+        <output id="salida"></output>
+
+
+       
+
+       <br>
+       <br>
+       <button type="submit">Enviar</button> 
+    </form>
+    
+</body>
+</html> 
